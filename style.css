@@ -115,10 +115,15 @@ section {
         body {
             overflow-y: auto;
             overflow-x: hidden;
-            margin-top: -20% !important;
-            margin-left: 0px !important;
-            margin-right: 0px !important;
-            margin-bottom: 0px !important;
+            margin: 0px !important;
+        }
+
+        main {
+            margin-top: 15%;
+        }
+        
+        section {
+            margin-top: auto;
         }
 
         #img1 {
@@ -127,10 +132,6 @@ section {
 
         #img2 {
             max-width: 100%;
-        }
-
-        section {
-            margin-top: auto;
         }
 
         #spacer {
