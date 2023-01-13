@@ -95,7 +95,7 @@ section {
 #img1 {
     position: absolute;
     z-index: -1;
-    top: -1%;
+    top: -15%;
     align-self: center;
     justify-self: center;
 }
@@ -107,3 +107,29 @@ section {
     align-self: center;
     justify-self: center;
 }
+
+@media only screen 
+    and (max-device-width: 1000px) {
+        
+        body {
+            overflow: normal;
+            margin-top: -20%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            max-width: 100%;
+        }
+
+        #img1 {
+            top: -35%;
+        }
+
+        section {
+            margin-top: auto;
+        }
+
+        #spacer {
+            margin-top: 10%;
+        }
+
+    }
