@@ -112,7 +112,8 @@ section {
     and (max-device-width: 1000px) {
         
         body {
-            overflow: visible;
+            overflow-y: auto;
+            overflow-x: hidden;
             margin-top: -20%;
             margin-left: 0;
             margin-right: 0;
@@ -134,5 +135,4 @@ section {
         #spacer {
             margin-top: 10%;
         }
-
     }
