@@ -115,7 +115,7 @@ section {
         body {
             overflow-y: auto;
             overflow-x: hidden;
-            margin-top: -20%;
+            margin-top: -20% !important;
             margin-left: 0px !important;
             margin-right: 0px !important;
             margin-bottom: 0px !important;
